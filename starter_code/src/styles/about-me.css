@@ -12,12 +12,14 @@
 }
 
 .welcome{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
     gap: 10px;  
     padding-left: 10px;
     padding-right: 10px;
+    height: 100vh;
 }
 .about-me-container{
     display: flex;
