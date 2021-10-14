@@ -1,0 +1,43 @@
+
+@import url(./hero.css);
+@import url(./about-me.css);
+@import url(./social-button.css);
+
+:root{
+    --fontBase: 'Poppins',sans-serif;
+    --headline2: bold 59px/96px var(--fontBase);
+    --headline5: bold 24px/39px var(--fontBase);
+    --body:bold 16px/25px var(--fontBase);
+    --purple:#310A90;
+    --white:#ffffff;
+    --button: 24px/39px var(--fontBase);
+
+}
+/*comnetario- inicia clase 14 oct
+medida absoluta- px
+medidas flexibles-vh (viewport  donde se puede visualizar en un telefono)
+los porcentajes tambien se adecuan
+
+Medidas relativas: em
+depende del parent element
+*/
+
+#about-me{
+    height: 50vh;
+    
+    background-color: palegoldenrod;
+
+}
+
+.about-me-container h1{
+    font-size: 1em;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}

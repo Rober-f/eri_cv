@@ -1,0 +1,17 @@
+.hero-content h5{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color:black;
+}
+.hero-content h2{
+    font: var(--headline2);
+    margin-bottom: 15px;
+}
+.hero-content p{
+    font: var(--body2);
+    margin-bottom: 20px;
+}
+
+.hero-img{
+    size: 50%;
+}
